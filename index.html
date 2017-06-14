@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Главная</title>
+
+        <!-- Styles-->
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/modalStyle.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+
+
+        <!-- jQuery-->
+        <script type = "text/javascript" src="js/jquery-3.1.0.min.js"></script>
+        <script type = "text/javascript" src="js/prefixfree.min.js"></script>
+
+
+
+        <!-- Bootstrap -->
+        <link href="libs/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Fonts-->
+        <link rel="stylesheet" href="css/fonts.css">
+
+        <!-- Reset.css-->
+        <!--<link rel="stylesheet" href="css/reset.css">-->
+    </head>
+    
+    <body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="mycolor">
+            <div class="container" id="head-container">
+                <div class="row">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#id-menu" aria-expanded="false">
+                            <img src="images/btn-menu.png" alt="btn-menu">
+                        </button>
+
+                        <a class="navbar-brand" id="brand" href="index.html">Darya's Puppies</a>
+
+                    </div>
+                    <p class="navbar-text">Питомник померанских шпицев</p>
+                    <div class="collapse navbar-collapse navbar-right" id="id-menu">
+                        <ul class="nav navbar-nav ">
+                            <li><a href="index.html">главная</a></li>
+                            <li><a href="AboutUs.html">о нас</a></li>
+                            <li class="dropdown">
+                                <a href="#" id="dropLabe1" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" >Наши собаки <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="mydroplist" aria-labelledby="dropLabe1">
+                                    <li><a href="ourDogsGirls.html">Девочки</a></li>
+                                    <li><a href="ourDogsBoys.html">Мальчики</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="puppiesForSale.html">Продажа щенков</a></li>
+                            <li><a href="galery.html">Галерея</a></li>
+                            <li><a href="contactUs.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <div class="header hidden-xs  hidden-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 ">
+                        <div class="text-block-header" id="id-news">
+                            <h2 class="animated fadeInDownBig">что у нас нового?</h2>
+                            <h1 class="animated fadeInLeftBig">Ждем потомство!</h1>
+                            <div class="animated fadeInRightBig"></div>
+                            <a class="animated fadeInUpBig" href="#ournews">Читать новости</a>
+                        </div>
+                        <div class="text-block-header" id="id-skin">
+                            <h2 class="animated fadeInDownBig">Стандарт породы</h2>
+                            <h1 class="animated fadeInLeftBig">шпиц-прирожденный компаньон</h1>
+                            <div class="animated fadeInRightBig"></div>
+                            <a class="animated fadeInUpBig" href="#aboutSkin">Читать больше</a>
+                        </div>
+                        <div class="text-block-header" id="id-video">
+                            <h2 class="animated fadeInDownBig">Посмотри видео</h2>
+                            <h1 class="animated fadeInLeftBig">Обьязательно</h1>
+                            <div class="animated fadeInRightBig"></div>
+                            <a class="animated fadeInUpBig" href="#our-video">Перейти к видео</a>
+                        </div>
+                        <div class="text-block-header" id="id-contact">
+                            <h2 class="animated fadeInDownBig">Напиши нам письмо</h2>
+                            <h1 class="animated fadeInLeftBig">Мы обезательно ответим</h1>
+                            <div class="animated fadeInRightBig"></div>
+                            <a class="animated fadeInUpBig" href="#contact">Перейти к контактам</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div id ="coc-container">
+                            <div class="col-md-3">
+                                <img src="images/logo_fci_ksu1-190x95.png" alt="fci">
+                            </div>
+                            <div class="col-md-4 col-md-offset-5 ">
+                                <div class="social-group">
+                                    <a href="https://www.facebook.com/groups/749952871820109/" target="_blank">
+                                        <img src="images/facebook-logo.png" alt="facebook">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/google.png" alt="google">
+                                    </a>
+                                    <a href="https://ok.ru/group/58066789990452" target="_blank">
+                                        <img src="images/image.png" alt="odnoklasniki">
+                                    </a>
+                                    <a href="https://www.instagram.com/truefriendskennel/" target="_blank">
+                                        <img src="images/instagram.png" alt="facebook">
+                                    </a>
+                                    <a href="#">
+                                        <img src="images/twiter.png" alt="teiter">
+                                    </a>
+                                    <a href="https://vk.com/truefriendspomeranianspitz" target="_blank">
+                                        <img src="images/vk.png" alt="vk">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="bottom-container">
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <button id="slide-banner1">новости</button>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 ">
+                            <button id="slide-banner2">о породе</button>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 ">
+                            <button id="slide-banner3">видео</button>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 ">
+                            <button id="slide-banner4">контакты</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="ourDogs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="title-block">
+                            <h3 class="animated move">Результаты работы</h3>
+                            <h2 class="animated move">Наши собаки</h2>
+                            <div class="separator animated move2"></div>
+                            <p> Для просмотра подробной информации выбери блок с фото девочек или мальчиков</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <h3 class="page-header text-center">Мальчики</h3>
+                        <a href="ourDogsBoys.html" class="img-block animated move3 center-block" id="block-boys">
+                            <div class="image-wrap"></div>
+                            <img src="images/gallery/PrestizhMistralMerkuriy2.jpg" class="img-responsive" alt="малчиков пока нет">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <h3 class="page-header text-center ">Девочки</h3>
+                        <a href="ourDogsGirls.html" class="img-block animated move3 center-block" id="block-girls">
+                            <div class="image-wrap"></div>
+                            <img src="images/gallery/photo7.jpg" class="img-responsive" alt="girls">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutSkin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="title-block">
+                            <h3 class="animated move">Померанский шпиц</h3>
+                            <h2 class="animated move">О породе</h2>
+                            <div class="separator animated move2"></div>
+                            <p> Для подробной информации кликайте по ссылкам "Читать больше"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="text-block-about">
+                            <img src="images/as-icon5.png" alt="standart">
+                            <h4>Cтандарт породы померанский шпиц</h4>
+                            <p>Немецкие, или карликовые, шпицы – это потомки дикой «торфяной» собаки...</p>
+                            <a href="#modal-standart" data-toggle="modal">Читать больше</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="text-block-about">
+                            <img src="images/as-icon1.png" alt="writer">
+                            <h4>Общее описание породы,характер померанского шпица</h4>
+                            <p>Одна из прекрасных черт, которыми обладает померанский карликовый шпиц – это сообразительность...</p>
+                            <a href="#modal-character" data-toggle="modal">Читать больше</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="text-block-about">
+                            <img src="images/as-icon6.png" alt="petinhome">
+                            <h4>Кормление померанского шпица</h4>
+                            <p>>Щенкам дают пищу три-четыре раза в день,
+                                взрослым питомцам – два раза. Рацион шпица...</p>
+                            <a href="#modal-feeds" data-toggle="modal">Читать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="separator-about"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="text-block-about">
+                            <img src="images/as-icon8.png" alt="baby">
+                            <h4>Линька померанского шпица</h4>
+                            <p>Мы привыкли видеть шпица с отличной пышной шевелюрой,
+                                но очень важно...</p>
+                            <a href="#modal-moult" data-toggle="modal">Читать больше</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="text-block-about">
+                            <img src="images/as-icon7.png" alt="petinhome">
+                            <h4>Особиности содержания, уход, здоровье померанского шпица</h4>
+                            <p>Несмотря на сложившийся стереотип, шпиц – собака, не требующая сложного,
+                                трудоемкого ухода...</p>
+                            <a href="#modal-care" data-toggle="modal">Читать больше</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="text-block-about">
+                            <img src="images/as-icon4.png" alt="somebody">
+                            <h4>Дрессеровка померанскрго шпица</h4>
+                            <p>Дрессировать представителей породы собак шпиц легко и приятно.
+                                Как правило, эти собаки рано понимают...</p>
+                            <a href="#modal-training" data-toggle="modal">Читать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-video">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="title-block">
+                            <h3 class="animated move">Обязательно посмотри</h3>
+                            <h2 class="animated move">Наше видео</h2>
+                            <div class="separator animated move2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <video src="videos/video1.mp4" controls poster="images/video-bg.jpg"></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pupy-buy">
+            <div class="container">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="title-block">
+                        <h3 class="animated move">Ближе к делу</h3>
+                        <h2 class="animated move">Продажа щенков</h2>
+                        <div class="separator animated move2"></div>
+                        <p> Для подробной информации кликайте по ссылкам "Читать больше"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="papy-buy">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-4 col-md-offset-4">
+                       <div class="title-papy">
+                           <h4>Щенки:</h4>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="row">
+                   <div class="col-lg-6 col-md-6 col-sm-6">
+                       <div class="text-block-buy">
+                           <div class="row">
+                               <div class="col-xs-6">
+                                   <img class="img-responsive img-circle animated move2" src="images/background.png" alt="boy">
+                               </div>
+                               <div class="col-xs-6">
+                                   <h2>Имя...</h2>
+                                   <h3>девочка</h3>
+                                   <div class="minisep"></div>
+                                   <p>Описание...</p>
+                                   <a href="puppiesForSale.html">Перейти к разделу "Продажи"</a>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-6 col-md-6 col-sm-6">
+                       <div class="text-block-buy">
+                           <div class="row">
+                               <div class="col-xs-6">
+                                   <img class="img-responsive img-circle animated move2" src="images/background.png" alt="boy">
+                               </div>
+                               <div class="col-xs-6">
+                                   <h2>Имя...</h2>
+                                   <h3>девочка</h3>
+                                   <div class="minisep"></div>
+                                   <p>Описание...</p>
+                                   <a href="puppiesForSale.html">Перейти к разделу "Продажи"</a>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="separator-about"></div>
+               <div class="row">
+                   <div class="col-md-4 col-md-offset-4">
+                       <div class="title-papy">
+                           <h4>Папа и мама щенков:</h4>
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-lg-6 col-md-6 col-sm-6">
+                       <div class="text-block-buy">
+                           <div class="row">
+                               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <img class="img-responsive img-circle animated move2 " src="images/background.png" alt="boy">
+                               </div>
+                               <div class="col-xs-6">
+                                   <h2>Имя...</h2>
+                                   <h3>девочка</h3>
+                                   <div class="minisep"></div>
+                                   <p>Описание...</p>
+                                   <a href="puppiesForSale.html">Перейти к разделу "Продажи"</a>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-6 col-md-6 col-sm-6">
+                       <div class="text-block-buy">
+                           <div class="row">
+                               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                     <img class="img-responsive img-circle animated move2 " src="images/gallery/photo3_850x850.jpg" alt="mum">
+                               </div>
+                               <div class="col-xs-6">
+                                   <h2>Fiona</h2>
+                                   <h3>мама</h3>
+                                   <div class="minisep"></div>
+                                   <p>Это мама Щенков, ее кличка Fiona.</p>
+                                   <a href="ourDogsGirls.html">Перейти к розделу "Наши собаки"</a>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </section>
+
+        <section id="about-us">
+            <div class="container">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="title-block">
+                        <h3 class="animated move">Познакомимся?</h3>
+                        <h2 class="animated move">О нас</h2>
+                        <div class="separator animated move2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="img-responsive" src="images/forBaner/baner-slide44.jpg" alt="aboutUs">
+                    </div>
+                    <div class="col-md-7">
+                        <p>Померанский шпиц это одна из самых красивых пород в мире!
+                            Эти маленькие любопытные пушистые комочки жизни с неисчерпаемой энергией,
+                            не оставят вас равнодушными! Померанский шпиц сумеет поселиться в каждой
+                            частичке Вашей души так быстро, что Вы и не заметите! Благодаря чудесному
+                            характеру и привлекательной внешности шпиц в наше время стал всеобщим любимцем
+                            во всем мире! Мы занимаемся племенным разведением породы померанский шпиц.
+                            Надеемся вам будет интересно на нашем сайте. Вы узнаете много нового об этой
+                            породе и найдете интересующую вас информацию. Будем рады ,если вы найдете у
+                            нас для себя верного, пушистого друга .. Основная цель нашего питомника -
+                            рождение здоровых и ласковых щенков, соответствующих стандарту породы и найти
+                            для них любящих и заботливых хозяев. </p>
+                            <p>Желаю вам приятного пребывания на нашем
+                            сайте!
+                            C уважением, питомник “True friends”..</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galery">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="title-block">
+                            <h3 class="animated move">Избраное фото</h3>
+                            <h2 class="animated move">Галерея фотографий</h2>
+                            <div class="separator animated move2"></div>
+                            <p> Что бы увеличить фото кликай по нему.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="img-block">
+                            <a href="images/gallery/photo1.jpg" data-lightbox="image1" class="image-wrap">
+                                <div class="descr">
+                                    <p>Увеличить <img src="images/zoom.png" alt="zoom"></p>
+                                </div>
+                            </a>
+                            <img src="images/gallery/photo1.jpg" class="img-responsive" alt="image1">
+
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="img-block">
+                            <a href="images/gallery/photo2.jpg" data-lightbox="image1" class="image-wrap">
+                                <div class="descr">
+                                    <p>Увеличить <img src="images/zoom.png" alt="zoom"></p>
+                                </div>
+                            </a>
+                            <img src="images/gallery/photo2.jpg" class="img-responsive" alt="girls">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="img-block">
+                            <a href="images/gallery/photo3.jpg" data-lightbox="image1" class="image-wrap">
+                                <div class="descr">
+                                    <p>Увеличить <img src="images/zoom.png" alt="zoom"></p>
+                                </div>
+                            </a>
+                            <img src="images/gallery/photo3.jpg" class="img-responsive" alt="girls">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="img-block">
+                            <a href="images/gallery/photo4.jpg" data-lightbox="image1" class="image-wrap">
+                                <div class="descr">
+                                    <p>Увеличить <img src="images/zoom.png" alt="zoom"></p>
+                                </div>
+                            </a>
+                            <img src="images/gallery/photo4.jpg" class="img-responsive" alt="girls">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="img-block">
+                            <a href="images/gallery/photo5.jpg" data-lightbox="image1" class="image-wrap">
+                                <div class="descr">
+                                    <p>Увеличить <img src="images/zoom.png" alt="zoom"></p>
+                                </div>
+                            </a>
+                            <img src="images/gallery/photo5.jpg" class="img-responsive" alt="girls">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="img-block">
+                            <a href="images/gallery/photo6.jpg" data-lightbox="image1" class="image-wrap">
+                                <div class="descr">
+                                    <p>Увеличить <img src="images/zoom.png" alt="zoom"></p>
+                                </div>
+                            </a>
+                            <img src="images/gallery/photo6.jpg" class="img-responsive" alt="girls">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="img-block">
+                            <a href="images/gallery/photo7.jpg" data-lightbox="image1" class="image-wrap">
+                                <div class="descr">
+                                    <p>Увеличить <img src="images/zoom.png" alt="zoom"></p>
+                                </div>
+                            </a>
+                            <img src="images/gallery/photo7.jpg" class="img-responsive" alt="girls">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="img-block">
+                            <a href="galery.html" class="image-wrap">
+                                <div class="descr">
+                                    <h3>Больше фото &gt;&gt;</h3>
+                                </div>
+                            </a>
+                            <img src="images/gallery/photo8.jpg" class="img-responsive" alt="image8">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="peapleSay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="title-block">
+                            <h3 class="animated move">Счастливые клиенты</h3>
+                            <h2 class="animated move">Что люди говорят</h2>
+                            <div class="separator animated move2"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="client-block">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="images/myPhoto.jpg" class="img-circle" alt="client">
+                                </div>
+                                <div class="col-md-8">
+                                    <h3>Марченко Анатолий</h3>
+                                    <h4>...</h4>
+                                    <h4>...</h4>
+                                    <h4>Место жительства: Грицевца 5a/12</h4>
+                                </div>
+                            </div>
+                            <div class="minisep"></div>
+                            <p>Всем привет щенка не покупал но могу с увереностью сказать что с этими людьми работать можно и нужно.
+                                Люди отвественны и исполнительны. Начав с ними работать вы в этом сами убедитесь.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="client-block">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="images/sergey.jpg" class="img-circle" alt="client">
+                                </div>
+                                <div class="col-md-8">
+                                    <h3>Фамилия Сергей</h3>
+                                    <h4>Кличка:Гоша</h4>
+                                    <h4>Год рождения собаки:2.04.12</h4>
+                                    <h4>Место жительства: Грицевца 5a/12</h4>
+                                </div>
+                            </div>
+                            <div class="minisep"></div>
+                            <p>Lorem ipsum auctor mattis magna fusce maecenas curabitur fusce
+                                integer quisque porttitor orci, sem massa ipsum auctor risus odio — metus
+                                ligula, sodales porta magna. Sodales tellus porta, enim tellus non.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ournews">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="title-block">
+                            <h3 class="animated move">Наши истории</h3>
+                            <h2 class="animated move">Новости</h2>
+                            <div class="separator animated move2"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="news-block">
+                            <img class="img-responsive" src="images/newsPhotos/Exhibition18.jpg" alt="news2">
+                            <h4>Выставка "Кубок Кривбасса"</h4>
+                            <p>В Кривом Роге прошла сертификатная выставка САС UA
+«КУБОК КРИБАССА»</p>
+                            <p><a href="http://uku-forum.com.ua/index.php?topic=3968.0">
+                                Украинский Форум Кинологов</a></p>
+                            <p><a href="galery.html">Посмотреть фотографии с выставки в галерее</a></p>
+                            <div class="number">
+                                <h4>1</h4>
+                                <p>окт</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="news-block">
+                            <img class="img-responsive" src="images/newsPhotos/news1.jpg" alt="news1">
+                            <h4>журнал "club dogs"</h4>
+                            <p>выйшов у світ другий номер (2/14) часопису
+                                кінологічної спілки украіни - ЖУРНАЛ "CLUB DOGS"</p>
+                            <div class="number">
+                                <h4>7</h4>
+                                <p>сен</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="openmap">
+            <div class="container-fluid">
+                <div class="btn animated move2" id="openmap-ref">
+                    <img src="images/open-map.png" alt="open">
+                    <h4>Открыть карту</h4>
+                    <div class="minisep"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <div id="googlemap">
+            <div class="container-fluid">
+                <iframe id="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2669.3613352757275!2d33.48428931539024!3d48.00672856824471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dae1da3742391d%3A0xc84dc33695b9046e!2z0LLRg9C70LjRhtGPINCa0YDQvtC_0LjQstC90LjRhtGM0LrQvtCz0L4sIDczLCDQmtGA0LjQstC40Lkg0KDRltCzLCDQlNC90ZbQv9GA0L7Qv9C10YLRgNC-0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1474107440854" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="title-contact">
+                            <h4>Контактная информация</h4>
+                        </div>
+                        <div class="text-block-footer">
+                            <h4>Питомник FCI "True Friends"</h4>
+                            <h4>Владелец Кантур Дарья</h4>
+                            <h4>Украина, город Кривой Рог</h4>
+                            <h4>Телефоны:</h4>
+                            <ul>
+                                <li><h4>096-254-72-76</h4></li>
+                                <li><h4>068-208-29-89</h4></li>
+                            </ul>
+                            <h4>Почта: kantur1985@ukr.net</h4>
+                            <div class="social-group">
+                                <a href="https://www.facebook.com/groups/749952871820109/" target="_blank">
+                                    <img src="images/facebook-logo.png" alt="facebook">
+                                </a>
+                                <a href="#">
+                                    <img src="images/google.png" alt="google">
+                                </a>
+                                <a href="https://ok.ru/group/58066789990452" target="_blank">
+                                    <img src="images/image.png" alt="odnoklasniki">
+                                </a>
+                                <a href="https://www.instagram.com/truefriendskennel/" target="_blank">
+                                    <img src="images/instagram.png" alt="facebook">
+                                </a>
+                                <a href="#">
+                                    <img src="images/twiter.png" alt="teiter">
+                                </a>
+                                <a href="https://vk.com/truefriendspomeranianspitz" target="_blank">
+                                    <img src="images/vk.png" alt="vk">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="title-contact">
+                            <h4>Напиши нам</h4>
+                        </div>
+                        <div class="form-block">
+                            <form >
+                                <div class="form-group">
+                                    <label for="email">E-mail:</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="exemple@dot.com">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="name">Ваше имя:</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Ваше имя">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Сообщение:</label>
+                                    <textarea class="form-control" name="message" id="message" placeholder="Ваше сообщение"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="title-contact">
+                            <h4>Instagram</h4>
+                        </div>
+
+                        <div class="photo-block-footer">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-4">
+                                    <img class="img-responsive" src="images/gallery/photo1.jpg" alt="ins1">
+                                    <img class="img-responsive" src="images/gallery/photo2.jpg" alt="ins2">
+                                    <img class="img-responsive" src="images/gallery/photo3.jpg" alt="ins3">
+                                </div>
+                                <div class="col-md-4 col-xs-4">
+                                    <img class="img-responsive" src="images/gallery/photo4.jpg" alt="ins1">
+                                    <img class="img-responsive" src="images/gallery/photo5.jpg" alt="ins2">
+                                    <img class="img-responsive" src="images/gallery/photo6.jpg" alt="ins3">
+                                </div>
+                                <div class="col-md-4 col-xs-4">
+                                    <img class="img-responsive" src="images/gallery/photo7.jpg" alt="ins1">
+                                    <img class="img-responsive" src="images/gallery/photo8.jpg" alt="ins2">
+                                    <img class="img-responsive" src="images/gallery/photo9.jpg" alt="ins3">
+                                </div>
+                            </div>
+                            <a href="https://www.instagram.com/truefriendskennel/" target="_blank">Смотреть больше фото</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="separator-about" id="footer-sep"></div>
+            </div>
+        </section>
+        <footer>
+            <div id="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div id="copyright">
+                                <p>&copy; 2016 Питомник померанских шпицей "True Friends" | владелец: Антон Кантур| Дизайн сайта:<a href="https://vk.com/toxer2000"> Mark Forest</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="brand-footer">
+                                <h4>TrueFriends</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="modal" id="modal-standart">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content animated slideInDown">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3>Стандарт породы</h3>
+                        <p>Стандарт FCI № 97 (05.03.1998)</p>
+                    </div>
+                    <div class="modal-body">
+                        <b>Происхождение</b>
+                        <p>Германия</p>
+                        <b>Классификация FCI</b>
+                        <p>Группа 5. Шпицы и примитивные собаки (без рабочих испытаний рабочих качеств).</p>
+                        <b>Использование</b>
+                        <p>Охранная собака и собака-компаньон.</p>
+                        <b>Краткая историческая справка</b>
+                        <p>Немецкие, или карликовые, шпицы – это потомки дикой «торфяной» собаки,
+                        которая жила ещё в каменном веке (порода называется «canis familiaris palustris Ruthimeyer»),
+                        и более позднего «Свайного шпица». Эта порода является самой старой в Средней Европе.
+                        Именно от этой породы произошли многие другие породы собак. Вольф-шпицы также носят название кеесхонд,
+                        а миниатюрных шпицев называют померанскими.</p>
+                        <b>Общий вид</b>
+
+                        <p>Телосложение шпицев сухое, крепкое. Основная гордость шпицев – великолепный шёрстный покров,
+                            каждый волосок которого стоит практически перпендикулярно телу за счёт богатого подшёрстка.
+                            Очень нарядно смотрится так называемый «воротник» на шее шпица, который похож на гриву,
+                            и пушистые штанишки задних лапок. В восторг приводи густой хвост, закрученный в колечко,
+                            который лежит на спине. Их мордочка с круглыми глазами, похожая на лисью из-за
+                            длинного и заострённого носа и высоко стоячих небольших ушей, весело и задорно улыбается.</p>
+
+                        <b>Важные пропорции</b>
+
+                        <p>Шпицы имеют квадратный формат туловища, что значит отношение высоты в холке к длине туловища составляет 1:1.</p>
+
+                        <b>Поведение и темперамент</b>
+
+                        <p>Шпиц бесконечно предан своему хозяину, во всём старается ему угодить.
+                        Эти качества делают воспитание и дрессировку очень лёгкими.
+                        У шпицев отсутствует охотничий инстинкт, он не агрессивен, но очень отважен,
+                        поэтому эти собаки являются отличными сторожами.
+                        Отличает шпицев хорошее здоровье и долголетие, выносливость, устойчивость к непогоде,
+                        незаурядный ум, активность и проницательность, но наряду с этим всем они неприхотливы.</p>
+
+                        <p><b>Голова</b> небольшая, клинообразной формы.<p>
+
+                        <p><i>Черепная часть:</i> череп средней величины, при просмотре сверху кажется
+                            более широким между ушами и плавно сужается к мочке носа.</p>
+
+                        <p><i>Стоп</i> (переход ото лба к морде) выражен хорошо, но он не резкий.</p>
+
+                        <p><i>Лоб</i> округлой формы, довольно широкий. Затылочный бугор слабо выражен.</p>
+
+                        <p><i>Лицевая часть:</i></p>
+
+                        <p><i>Мочка носа</i> маленькая, круглая, чисто чёрного цвета,
+                            у коричневых шпицев – тёмно-коричневая.</p>
+
+                        <p><i>Морда:</i> по своей длине морда короче лба,
+                            находится в комфортном пропорциональном соотношении с черепом:
+                            у больших и средних шпицев соотношение длины морды к
+                            длине черепа равно 2:3, а у миниатюрных и померанских шпицев около 2:4.</p>
+
+                        <p><i>Губы</i> умеренно выражены, сухие, плотно прилегающие,
+                            они не образуют складок в уголках. Цвет губ шпицев всех окрасов чёрный,
+                            только у коричневых, рыжих и оранжевых допускается коричневый.</p>
+
+                        <p><i>Челюсти и зубы:</i> шпицы имеют комплект зубов в количестве 42 штук,
+                            зубы небольшие, челюсти развиты нормально. Прикус ножницеобразный,
+                            соответствующий зубной формуле, это значит, что верхние зубы дублируют
+                            нижние и расположены перпендикулярно челюсти. У шпицев всех видов допустим
+                            прямой прикус, или клещеобразный, при таком виде прикуса при смыкании
+                            челюстей верхние и нижние резцы упираются друг в друга. У карликовых шпицев
+                            возможно отсутствие нескольких премоляров.</p>
+
+                        <p><i>Скулы</i> округлые, не выступающие.</p>
+
+                        <p><i>Глаза</i> небольшого размера, слегка овальной формы,
+                            чуть косо поставлены, тёмного цвета. Цвет век – чёрный у всех окрасов,
+                            у коричневых шпицев — в тон окраса.</p>
+
+                        <p><i>Уши</i> маленькие, посажены высоко и находятся довольно близко
+                            друг от другу, по форме напоминают треугольник. Остроконечные,
+                            плотные, всегда стоячие.</p>
+
+                        <p><i>Шея</i> умеренной длины, без подвеса, широко поставлена на плечи,
+                            загривок немного выпуклый, из-за пышной гривы кажется маленькой.</p>
+
+                        <b>Корпус</b>
+
+                        <p><i>Линия верха</i> начинается от вертикально несущихся ушей и плавно перетекает к основанию хвоста.
+                        Густой, пышный хвост закрывает всю заднюю часть верха, тем самым как бы округляет силуэт собаки.</p>
+
+                        <p><i>Холка и спина</i> короткая, прямая, крепкая, хорошо развитая.</p>
+
+                        <p><i>Поясница</i> короткая, широкая и крепкая, немного выпуклая</p>
+
+                        <p><i>Круп</i> короткий, широкий. Не скошенный.</p>
+
+                        <p><i>Грудь</i> глубокая и довольно широкая с хорошо развитой передней части. Рёбра округлые.</p>
+
+                        <p><i>Линия низа</i> грудная клетка простирается по возможности дальше назад. Живот умеренно подтянут.</p>
+
+                        <p><b>Хвост</b> пушистый хвост поставлен высоко, имеет среднюю длину, закинут на спину и
+                        загнут в виде кольца. Нормальным может считаться двойной завиток на кончике хвоста.</p>
+
+                        <p><b>Конечности</b> сухие, прямые, параллельно поставлены.</p>
+
+                        <p><i>Передние конечности</i></p>
+
+                        <p><i>Общее впечатление:</i> прямые, широкая фронтальная линия.</p>
+
+                        <p><i>Плечи:</i> лопатки шпица длинные и косо направлены назад.
+                        Плечо имеет схожую длину и образует с лопаткой прямой угол.
+                        Плечи имеют хорошо развитую мускулатуру и плотно прилегают к грудной клетке.</p>
+
+                        <p><i>Локти:</i> локтевой сустав мощный, локти прижаты к грудной клетке и не сближены, но и не вывернуты.</p>
+
+                        <p><i>Предплечья</i> прямые, имеют среднюю длину относительно корпуса,
+                        крепкие и коренастые, полностью прямые. Задняя часть предплечья
+                        обильно покрыта шёрстным покровом.</p>
+
+                        <p><i>Пясти</i> крепкие, средней длины, находятся под 20-градусным углом
+                        к вертикали, в комке.</p>
+
+                        <p><i>Лапы</i> маленькие, округлые, длина всех пальцев приблизительно
+                        одинакова, лапа имеет округлую форму, как у кошки, пальцы полусогнуты.
+                        Когти и подушечки имеют чёрный цвет (у всех окрасов); у коричневых шпицев
+                        – темно-коричневый.</p>
+
+                        <p><i>Задние конечности</i></p>
+
+                        <p><i>Общее:</i> лапы довольно мускулистые, стоят прямо и параллельно друг
+                        относительно друга, до скакательного сустава обильно покрыты шерстью,
+                        которая образует так называемые «штанишки».</p>
+
+                        <p><i>Бедра и голени</i> приблизительно одной длины.</p>
+
+                        <p><i>Колени</i> умеренно выражены, не свободны, сустав мощный,
+                        при передвижении не развёрнуты ни наружу, ни внутрь.</p>
+
+                        <p><i>Плюсны (стопы)</i> крепкие и имеют среднюю длину, поставлены перпендикулярно земле,
+                        параллельны друг другу. Крепко стоит на пальцах.</p>
+
+                        <p><i>Лапы</i> хорошо сомкнутые, маленькие, собранные (так называемые «кошачьи лапы»),
+                        пальцы полусогнуты. Подушечки грубые. Когти должны иметь как можно более тёмный цвет.</p>
+
+                        <p><b>Движения</b> мягкие и лёгкие, свободные, но уверенные, пружинисто-упругие.
+                        Толчок хороший. Шпицы движутся хорошей рысью.</p>
+
+                        <p><b>Кожа</b> плотно прилегает к корпусу,  не образует каких-либо складок.</p>
+
+                        <p><b>Шёрстный покров</b></p>
+
+                        <p><i>Шерсть:</i> немецкий шпиц обладает двойным шёрстным покровом: короткий,
+                        мягкий и очень густой подшёрсток, который приподнимает более длинный,
+                        жёсткий, прямой остевой волос. Богатая шерсть на шее образует объёмный
+                        «воротник». На предплечьях должны быть очёсы, а задние конечности от крупа до
+                        скакательного сустава в пышных «штанишках», хвост очень густо покрыт шерстью, на спине,
+                        боках, лбу, ушах и морде шерсть немного короче. Шерсть шпицев не должна быть волнистой,
+                        кучерявой или лохматой, не должна быть мягкой на ощупь, на спине не должна распадаться
+                        на пробор.</p>
+
+                        <p>Окончательный шёрстный покров оформляется у шпицев к трём годам.</p>
+
+                        <p><i>Окрас:</i></p>
+
+                        <p>Вольфшпиц  Кеесхонд: зонарно-серый.</p>
+
+                        <p>Большой шпиц: чёрный, коричневый, белый.</p>
+
+                        <p>Средний шпиц: чёрный, коричневый, белый, оранжевый, зонарно-серый, другие окрасы.</p>
+
+                        <p>Миниатюрный шпиц: чёрный, коричневый, белый, оранжевый, зонарно-серый, другие окрасы.</p>
+
+                        <p>Цвергшпиц: чёрный, коричневый, белый, оранж, зонарно-серый, другие окрасы.</p>
+
+                        <p><b>Черный шпиц</b></p>
+
+                        <p>Шерсть чёрного шпица должна быть чистого чёрного цвета вкупе с тёмной
+                        кожей и чёрным подшёрстком. Какие-либо белые пятна не допускаются.</p>
+
+                        <p><b>Коричневый шпиц</b></p>
+
+                        <p>Шёрстный покров коричневого шпица должен быть равномерно темно-коричневым.</p>
+
+                        <p><b>Белый шпиц</b></p>
+
+                        <p>Окрас должен быть безукоризненно белый, в том числе и за ушами
+                        (хотя допускается желтоватый оттенок), кожа – светлой.</p>
+
+                        <p><b>Оранжевый шпиц</b></p>
+
+                        <p>Шпицы оранжевого цвета должны иметь однотонный и равномерный окрас
+                        средней интенсивности.</p>
+
+                        <p><b>Волчий шпиц</b></p>
+
+                        <p>Шпицы волчьего окраса – это собаки с шерстью серебристо-серого цвета,
+                        кончики которой окрашены в чёрный цвет. Морда и уши тёмные. Глаза красиво
+                        обрамлены короткими, но выразительными бровями, а от внешних углов глаз до
+                        нижнего начала ушей идёт тонкая отчётливая линия. Кончик хвоста также чёрного цвета.</p>
+
+                        <p><b>Кеесхонд</b></p>
+
+                        <p>Окрас зонарно-серый, то есть серебристый. Морда и уши у шпицев с
+                        таким окрасом очень тёмные; от внешнего угла глаз идёт полоса к ушам,
+                        а над глазами – хорошо очерченные короткие брови. Шерсть имеет более
+                        светлый оттенок на «воротнике», в области холки и на очёсах, в области
+                        предплечья. Нижняя поверхность хвоста светло-серебристая, а его кончик
+                        – чёрного цвета.</p>
+
+                        <p><b>Другие окрасы шпицев</b></p>
+
+                        <p>Говоря «другие окрасы», обычно подразумевают все
+                        оттенки основных цветов: кремовый, кремово-соболиный,
+                        оранжево-соболиный, чёрный с подпалом и цветной окрас (партиколорный,
+                        где основной цвет шерсти – белый). У собак пятнистого окраса чёрные,
+                        коричневые, серые и рыжие пятна должны быть распределены по всему корпусу.</p>
+
+                        <p><b>Рост</b></p>
+
+                        <p>Высота в холке</p>
+                        <ul>
+                            <li>Вольфшпиц (Кеесхонд) – 49см ± 6см.</li>
+                            <li> Большой шпиц – 46см ± 4см.</li>
+                            <li>Средний шпиц – 34см ± 4см.</li>
+                            <li>Малый шпиц – 26см ± 3см.</li>
+                            <li>Карликовый (Померанский) – 20см ± 2см.</li>
+                            <li> Рост менее 18см не желателен.</li>
+                        </ul>
+
+                        <p><b>Вес</b></p>
+
+                        <p>Вес должен соответствовать росту собаки.</p>
+
+                        <p><b>Недостатки</b></p>
+
+                        <p>Всякие отклонения от вышеназванных пунктов рассматриваются
+                        как недостаток или порок (в зависимости от степени выраженности
+                        и влияния на здоровье пса).</p>
+
+                        <p><b>Серьёзные недостатки (пороки)</b></p>
+                        <ul>
+                            <li>Недостатки анатомии.</li>
+                            <li>Плоская голова, голова в форме яблока.</li>
+                            <li>Слишком большие и слишком светлые глаза. Текущие глаза.</li>
+                            <li>Светлая окраска носа, обводки глаз и губ.</li>
+                            <li> Неполный комплект зубов у Кеесхондов, Больших и Средних шпицев.</li>
+                            <li> Недостатки в движениях.</li>
+                            <li>У зонарно-серых шпицев отсутствие отличительной окраски морды (маски).</li>
+                        </ul>
+                        <p><b>Дисквалифицирующие пороки</b></p>
+                        <ul>
+                            <li>Незаросшее темя.</li>
+                            <li>Недокус или перекус.</li>
+                            <li>Заворот и выворот век.</li>
+                            <li>Полустоячие уши.</li>
+                            <li>Явные белые пятна у всех разновидностей.</li>
+                        </ul>
+                        <p><b>Примечание:</b></p>
+
+                        <p>Кобели должны иметь два нормально развитых семенника, которые полностью находятся в мошонке.</p>
+
+                        <p><b>Кто же определяет стандарт породы?</b></p>
+
+                        <p>Определяют стандарт породы крупнейшие кинологические организации,
+                        они же проводят выставки, соревнования собак и следят за племенным
+                        разведением собак в тех странах, которые входят в организацию.</p>
+
+                        <p>Самой крупной и известной кинологической организацией
+                        является <a href="http://www.fci.be/en/">Международная
+                        кинологическая федерация</a> (FCI, фр. Fédération Cynologique Internationale).</p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-character">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content animated slideInDown">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3>Интелект, характер, социализация</h3>
+                    </div>
+                    <div class="modal-body">
+                        <h4>Интеллект</h4>
+
+                        <p>Одна из прекрасных черт, которыми обладает померанский карликовый шпиц – это сообразительность.
+                        Представители этой породы прекрасно поддаются дрессировке, они очень понятливы и ласковы.
+                        Правда, стоит отметить, что обстоятельства (первоначально, шпицев заводили представители рабочих профессий),
+                        сделали их собаками сторожевыми. А это значит, что любовь к громкому лаю заложена у них генетически.
+                        Поэтому, не стоит поддаваться стереотипу и всерьез принимать малого немецкого шпица за
+                        сварливую маленькую собачонку. Если пес лает, значит, он почувствовал опасность и
+                        посчитал необходимым оградить от нее своего хозяина.</p>
+
+                        <p>Благодаря своему интеллекту померанцы хорошо
+                        поддаются воспитанию, но при этом проявляют и необычайную
+                        изворотливость в попытках получить от владельца желаемое – будь
+                        то игрушка, лакомый бисквит или просто ласка и внимание. Кстати,
+                        именно внимание, как правило, является главной целью всех затей:
+                        маленькие фрейлины считают себя центром Вселенной и стараются активно
+                        поддерживать к себе интерес окружающих.</p>
+
+                        <h4>Характер</h4>
+
+                        <p>Эти пушистые танцовщики (а в движениях шпица
+                        действительно есть что-то от застенчивого танцора)
+                        обладают покладистым характером. Они преданы своим владельцам,
+                        при этом совершенно не навязчивы. Ласковы, и прекрасно ладят с
+                        другими животными. Даже если все питомцы сосуществуют на скромном метраже,
+                        шпиц будет дружественно себя позиционировать и играть с остальными собаками.</p>
+
+                        <p>В воспитании шпица есть две сложности, которые важно учитывать.
+                        Во-первых, психологически малый немецкий шпиц еще не смирился со
+                        своим миниатюрным размером, и по-прежнему считает себя «большой»
+                        собакой. Поэтому он любит задиристо лаять на больших псов. Как известно,
+                        такие перепалки не всегда заканчиваются мирно, поэтому лучше этот нюанс при
+                        воспитании щенка не упускать из виду. Вторая причина исходит из первой: собака
+                        шпиц весьма шумная. Лает не от скверного характера, как уже упоминалось, а по
+                        «зову предков». И отучать от этой сомнительной привычки собаку стоит с детства.</p>
+
+                        <h4>Социализация</h4>
+
+                        <p>Порода собак шпиц генетически предрасположена не только к лаю,
+                        но и к активной светской жизни. Если хозяева не предпринимали никаких
+                        усилий для того, чтобы усмирить любовь собаки к незнакомым людям, можно
+                        не сомневаться: шпиц будет радоваться каждому прохожему.</p>
+
+                        <p>Собака прекрасно уживается с другими четырехлапыми. Но сердце
+                        померанского карликового шпица принадлежит одному человеку в доме
+                        – хозяину. За ним он ходит «хвостиком», у его кровати смирно ждет
+                        пробуждения от сна, за него одного готов «маму в цирк продать». Достаточно
+                        вспомнить жену Оззи Осборна Шерон: все сезоны реалити-шоу «Семейка Осборнов»
+                        она появлялась в кадре с кремовым шпицем Мини: тот не отходил от хозяйки ни разу!
+                        Одним словом, порода эта идеально подойдет женщинам, нуждающимся в постоянных доказательствах
+                        любви и людям, которым нужна постоянная компания.</p>
+
+
+                        <p>Несмотря на то, что шпиц – собака деловитая и активная,
+                        пес вполне способен смирно сидеть на руках в течение нескольких
+                        часов, и прекрасно переносит переезды. Еще одной характерной чертой
+                        этих собак является веселый нрав, который сразу располагает к себе
+                        любого человека. Померанские шпицы все время "улыбаются" и не только потому,
+                        что так устроены их мордочки, а потому что это жизнерадостные, оптимистичные собаки.
+                        Даже когда шпиц лает, можете быть уверены: он не угрожает, а просто стремится обратить
+                        на себя внимание.</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-feeds">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content animated slideInDown">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3>Кормление</h3>
+                    </div>
+                    <div class="modal-body">
+                        <h4>Чем кормить собаку породы померанский шпиц</h4>
+                        <p>Щенкам дают пищу три-четыре раза в день,
+                        взрослым питомцам – два раза. Рацион шпица, как и любой собаки,
+                        должен наполовину состоять из мясных продуктов. На каждый килограмм
+                        веса животного рекомендуется давать 25 г корма. Основой собачьего меню
+                        должны стать говядина и курица. Морская рыба дается один – два раза в неделю.
+                        Каши для шпица варятся из риса и гречки, изредка можно давать геркулес.
+                        Овощи допустимо давать как в сыром, так и в вареном виде. Шпиц – мелкая
+                        собака, и ей не нужно давать кости, поскольку они могут поранить пищевод.</p>
+
+                        <p>Для щенков померанского карликового шпица полезны говяжьи, бараньи хрящики.
+                        Такое лакомство развивает челюсти, служит дополнительным источником минералов.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-care">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content animated slideInDown">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3>Уход</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>Несмотря на сложившийся стереотип, шпиц – собака, не требующая сложного,
+                        трудоемкого ухода. Единственное, что требуется от хозяина – это следить
+                        за шерстью. Шпица стоит вычесывать раз в неделю, уделяя особое внимание
+                        местам, где чаще всего сваливается шерсть, а именно зоне за ушами и на бедрах.</p>
+
+                        <p>Груминг шпица может быть, пожалуй, так же разнообразен, как груминг
+                        пуделя. Из шпица сотрудники салонов для животных с удовольствием сделают
+                        «медвежонка», «лисенка», или же просто приведут в порядок естественную форму
+                        опушки собаки.</p>
+
+                        <p>Часто купать шпица не стоит. Лучше доверять этот процесс работникам груминг-салонов,
+                        оптимально – раз в полгода.</p>
+
+                        <p>В питании померанские шпицы неприхотливы.
+                        Правильно подобранного корма будет вполне достаточно.
+                        Главное не забывать про витаминные комплексы в период весенней линьки
+                        и следить за тем, чтоб у собаки всегда была вода.</p>
+
+                        <h4>Шпиц и ваша квартира</h4>
+
+                        <p>Шпиц – собака деликатная. Как уже говорилось,
+                        единственное, с чем действительно стоит разобраться, –
+                        это с шумом, который пес может издавать. Можно не беспокоиться:
+                        испорченной мебели и изжеванных ботинок в норме быть не должно.</p>
+
+                        <p>Собака спокойно спит как на хозяйской кровати, так и на отдельной
+                        лежанке. Будучи животным деликатным, он вряд ли осмелиться будить
+                        хозяина с утра. Но стоит владельцу приоткрыть глаза, как из-за «горизонта»
+                        матраса появится улыбающаяся "лисья" мордочка. Стоит признать, что померанским
+                        шпицам очень нелегко дается одиночество. Поэтому, покидая квартиру более чем на
+                        несколько часов, собаку лучше брать с собой, если есть такая возможность.
+                        Поскольку эта порода живет только для своего хозяина, часы расставания для
+                        нее будут настоящим мучением. И не исключено, что соседи поначалу будут
+                        жаловаться на затяжной плач, доносящийся из вашей квартиры.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-training">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content animated slideInDown">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3>Обучение</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>Дрессировать представителей породы собак шпиц легко и приятно.
+                        Как правило, эти собаки рано понимают,
+                        что окружающие счастливы наблюдать,
+                        как собачка ходит на задних лапах и протягивает две передние человеку,
+                        поэтому с радостью демонстрируют это умение.</p>
+
+                        <p>Шпиц – собака понятливая.
+                        Она обладает крепкой нервной системой,
+                        прекрасно чувствует психологическое состояние хозяина.
+                        Поэтому на шпица лучше не повышать голос и уж тем более не поднимать руку.
+                        Мы рекомендуем посмотреть несколько серий шоу Цезаря Милана «Переводчик с
+                        собачьего», и взять на вооружение общие принципы дрессировки маленьких собак.
+                        Этого будет достаточно для того, чтобы научить вашего маленького питомца некоторым
+                        трюкам.</p>
+
+                        <h4>Прогулки и физические нагрузки</h4>
+
+                        <p>Померанский шпиц очень любит гулять. Собаке важна физическая нагрузка,
+                        поэтому, если вы хотите иметь здоровую собаку, не доверяйте роль туалета
+                        памперсной пеленке, а почаще выводите вашего пушистого друга на улицу.
+                        В день собака должна проводить на воздухе минимум 40 минут.
+                        Причем, прогулка должна быть активной и, по возможности, сочетать
+                        в себе не только выгул, но и дрессировку, а также подвижные игры.</p>
+
+                        <p>Выбирая подходящий поводок для прогулок, обратите
+                        внимание на рулетки. Собака шпиц очень любознательна, и иногда может
+                        делать вид, что просто вас не слышит. Особенно бдительным стоит быть
+                        , проходя неподалеку от проезжей части, да и вообще спускать шпица с поводка
+                        следует лишь на закрытой территории. Поскольку представители этой породы совершенно
+                        бесстрашны, это часто толкает их на очень сомнительные, а иногда и трагичные авантюры.</p>
+
+                        <p><i>Собака прекрасно уживается с другими четырехлапыми. Но сердце шпица принадлежит
+                        одному человеку в доме – хозяину. За ним он ходит «хвостиком», у его кровати
+                        смирно ждет пробуждения от сна, за него одного  готов «маму в цирк продать».</i></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal" id="modal-moult">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content animated slideInDown">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3>Линька</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>Мы привыкли видеть шпица с отличной пышной шевелюрой,
+                        но очень важно быть готовым к тому, что до этого момента
+                        с шёрстным покровом собак происходят некоторые метаморфозы.</p>
+
+                        <p>Щенки померанского шпица рождаются с гладкой и короткой шерстью,
+                        и только потом начинают потихоньку обрастать: в течение пары-тройки
+                        недель образуется лёгкий пушок, а к восьмой неделе появляется и подшёрсток,
+                        проклёвывается воротник.</p>
+
+                        <p>Когда щенок достигает двух-трёх- (иногда четырёх-) месячного возраста,
+                        он полностью покрыт пухом и выглядит как пушистый комочек. Но именно в
+                        это время начинается первая линька: на смену щенячьему пушку приходят
+                        жёсткие остевые волоски и короткий плотный подшёрсток. Такая основательная
+                        линька бывает лишь раз в жизни шпица. Если вы увидите пяти- или семимесячного шпица,
+                        то ни за что не поверите, что это именно он, ведь в таком виде шпиц совершенно
+                        не похож на своих взрослых сородичей.</p>
+
+                        <p><b>Линька длится в среднем полгода.</b> Начиная с этого времени и до того момента,
+                        когда питомцу исполнится два-три года, объём шерсти будет постоянно расти.
+                        Линька в этот период будет несильна (2 раза в год), но шерсть будет потихоньку
+                        заменяться. А в три года у вашего любимца полностью сформируется богатый шёрстный
+                        покров, который станет предметом гордости шпица.</p>
+
+                        <p>Не думайте, что в это время по вашей квартире будут носиться клоки шерсти – нет,
+                        при правильном уходе и вычёсывании затраты на уборку квартиры будут минимальны,
+                        к тому же сам подшёрсток крепко держит остевые волоски, не давая им никуда деться.</p>
+
+                        <p>Если линька очень сильно выражена, обязательно займитесь сбалансированным питанием крохи.</p>
+
+                        <p>Процесс линьки очень индивидуален: некоторые представители породы по-разному
+                        переживают его – кто-то быстрее сбрасывает шерсть, но и быстро её набирает,
+                        кто-то – наоборот.</p>
+
+                        <p>Начиная с трёхлетнего возраста шпицы линяют несильно и незаметно.
+                        Мальчики-шпицы линяют 1 раз в год, а девочки-шпицы – 2 раза в год.</p>
+                        <div>
+                            <h4>NB – Обратите внимание</h4>
+
+                            <p>Стоит иметь в виду, что девочки-шпицы, которые вскормили потомство,
+                            могут линять сильнее, чем обычно. Это связано с тем, что вместе с молоком из
+                            организма выходят различные минералы и микроэлементы. Важно позаботиться о
+                            сбалансированном питании суки после родов, ведь если оно будет скудным или в
+                            нём будет присутствовать слишком много биотина и белка, сука скинет всю свою
+                            шерсть, а обрастать потом будет долго – полгода.</p>
+
+                            <p>У тех кобелей и сук, которые не вязались, процесс смены шерсти выражен очень незначительно,
+                            их шерсть находится в превосходном виде.</p>
+                        </div>
+                        <p>В заключение хотелось бы сказать, что нужно с самого детства шпица заниматься с ним, приучать к
+                        купанию и расчёсыванию, чтобы в дальнейшем у вас не было проблем, а померанец не боялся ни того,
+                        ни другого.</p>
+
+                        <p>Любите и лелейте своего любимца, ведь правильный уход за шерстью – залог здоровья кожи и шерсти.</p>.
+
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
+         <script type ="text/javascript" src="js/functions.js"></script>
+  </body>
+</html>

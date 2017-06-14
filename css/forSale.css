@@ -1,0 +1,46 @@
+.forSale p{
+    text-indent: 20px;
+    font-family: 'Roboto-Regular', 'sans-serif';
+    font-size: 18px;
+    color:#999;
+}
+.forSale{
+    background-size: cover;
+    background: url("../images/clients-bg.jpg") center;
+    padding-bottom: 50px;
+}
+
+.block-pappyForSale{
+    /*padding-bottom: 50px;*/
+}
+
+#carousel-pappy2,#carousel-pappy1,#carousel-pappy3{
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+}
+
+.block-pappyForSale h3{
+    font-family: 'KaushanScript-Regular', 'OpenSans-Italic', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color:#333;
+}
+
+.block-pappyForSale p{
+    font-family: 'Roboto-Regular', 'sans-serif';
+
+}
+
+.block-pappyForSale h4{
+    font-family: 'KaushanScript-Regular', 'OpenSans-Italic', sans-serif;
+    color:#999;
+
+}
+
+.characteristic p,.description p{
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    padding-left: 10px;
+}
+
+.item img{
+    width: 100%;
+}

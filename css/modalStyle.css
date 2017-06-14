@@ -1,0 +1,29 @@
+#modal-standart p,#modal-standart b,#modal-standart i{
+    font-family: 'Roboto-Regular', 'sans-serif';
+    font-size: 16px;
+}
+
+
+
+.modal-content{
+    background: url('../images/modal-bg.jpg');
+}
+
+#modal-character h4,#modal-feeds h4,#modal-care h4,#modal-training h4,#modal-moult h4{
+    font-family: 'Montserrat-Bold', 'OpenSans-Bold', sans-serif;
+}
+
+#modal-character h3,#modal-feeds h3,#modal-care h3,#modal-training h3,#modal-moult h3{
+    font-family: 'Montserrat-Bold', 'OpenSans-Bold', sans-serif;
+}
+
+#modal-character p,#modal-feeds p,#modal-care p,#modal-training p, #modal-moult p{
+    font-family: 'Roboto-Regular', 'sans-serif';
+    font-size: 16px;
+}
+
+#modal-moult .modal-body div{
+    border:1px solid red;
+    border-radius: 5px;
+    padding: 20px;
+}

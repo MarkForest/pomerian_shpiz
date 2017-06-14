@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style resource="css/reset.css"></style>
+  
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        //$(document).ready(function () {
+        //    $('#img1').click(function () {
+        //        var v = $('#img1');
+        //        v.hide(2000, "swing", function () {
+        //            //css("src", "img/wallpaper_240x320_№14_13.jpg");
+        //            ///v.attr("src", "img/wallpaper_240x320_№14_13.jpg");
+        //            v.show(2000, "swing");
+                   
+        //        });
+        //    });
+        //});
+
+
+        //$(document).ready(function () {
+        //    $('#btn').click(function () {
+        //        $('#img1').toggle(2000);
+        //    })
+        //});
+
+
+
+        //$(document).ready(function () {
+        //    $('#btn').click(function () {
+        //        $('#img1').fadeOut(3000, "swing", function () {
+        //            $('#img1').attr("src", "img/wallpaper_240x320_№14_13.jpg");
+        //            $('#img1').fadeIn(3000);
+        //        });
+        //    })
+        //});
+
+        //$(document).ready(function () {
+        //    $('#btn').click(function () {
+        //        $('#img1').fadeToggle(3000);
+                   
+        //    })
+        //});
+
+
+        //$(document).ready(function () {
+        //    $('.ico').click(function () {
+        //        var src =$(this).attr("src");
+        //        $("#img1").fadeOut(3000, function () {
+        //            $("#img1").attr("src", src);
+        //            $("#img1").fadeIn();
+        //        });
+        //    })
+        //});     
+        //    <div class="container-fluid">
+        //    <div class="col-lg-3">
+        //        <img id="img2" class="ico col-lg-4" src="img/wallpaper_240x320_№14_16.jpg" />
+        //        <img id="img3" class="ico col-lg-4" src="img/wallpaper_240x320_№14_45.jpg" />
+        //        <img id="img4" class="ico col-lg-4" src="img/wallpaper_240x320_№14_53.jpg" />
+        //    </div>
+        //    <img id="img1" class=" slider img-responsive col-md-9" src="img/wallpaper_240x320_№14_16.jpg" />
+        //</div>
+
+        //$(document).ready(function () {
+        //    $(".my_header").click(function () {
+        //        $("#img1").slideToggle(2000);
+              
+        //    });
+        //});
+        //$(document).ready(function () {
+        //    $(".my_header").click(function () {
+       
+        //        if ($("#img1").height() < 320) {
+        //            $("#img1").animate({ height: '320px' }, 500);
+        //        }
+        //        else
+        //        {
+        //            $("#img1").animate({ height: '0px' }, 500);
+        //        }
+
+        //    });
+        //});
+        //$(document).ready(function () {
+           
+        //    $("#img1").fadeOut();
+            
+        //    $(".my_header").click(function () {
+
+        //        setTimeout(function () { $("#img1").stop();}, 500);
+        //            $("#img1").animate({ height: 330 }, 3000);
+        //          //  $("#img1").animate({ height: 320 }, 500);
+        //    });
+        //});
+
+
+        //$(document).ready(function () {
+        //    $(".my_header").click(function () {
+        //        $("#img1").stop();
+        //            $("#img1").hide(2000);    
+        //    })
+        //});
+        //$(document).ready(function () {
+        //    $(".my_header2").click(function () {
+        //        $("#img1").stop();
+        //        $("#img1").show(2000);
+        //    })
+        //});
+        //        <div>
+        //    <h5 class="my_header2">СОВА ПОКАЗАТЬ</h5>
+        //    <h5 class="my_header">СОВА СКРЫТЬ</h5>
+        //    <img class="my_img" id="img1" src="img/wallpaper_240x320_№14_37.jpg" />
+        //</div>
+   
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                $("#inp").parent().children().remove("#inp");
+                $("#btn").before("<input id='inpppp' type='text' />");
+             
+            });
+        
+        });
+    </script>
+   <input id="inp" type="text" />
+    <button id="btn">CLICK</button>
+   
+
+
+</body>
+</html>
